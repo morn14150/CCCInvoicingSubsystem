@@ -1,5 +1,7 @@
 package com.cinco;
 
+import java.util.UUID;
+
 /**
  * Represents a license. This takes all definitions
  * from the Item class.
@@ -10,18 +12,18 @@ public class License extends Item {
 	private double annualFee;
 	private double serviceFee;
 	
-	public License(String uuid, String name,
-				   double annualFee, double serviceFee) {
+	public License(UUID uuid, String name,
+				   double serviceFee, double annualFee) {
 		super(uuid, name);
-		this.annualFee = annualFee;
 		this.serviceFee = serviceFee;
-	}
-
-	public double getAnnualFee() {
-		return annualFee;
+		this.annualFee = annualFee;
 	}
 
 	public double getServiceFee() {
 		return serviceFee;
+	}
+	
+	public double getAnnualFee() {
+		return annualFee;
 	}
 }

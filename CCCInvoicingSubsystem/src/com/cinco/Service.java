@@ -1,5 +1,7 @@
 package com.cinco;
 
+import java.util.UUID;
+
 /**
  * Represents a service. This takes all definitions
  * from the Item class.
@@ -8,7 +10,7 @@ package com.cinco;
 public class Service extends Item {
 	private double costPerHour;
 	
-	public Service(String uuid, String name,
+	public Service(UUID uuid, String name,
 				   double costPerHour) {
 		super(uuid, name);
 		this.costPerHour = costPerHour;

@@ -26,6 +26,18 @@ public class DataConverter {
 		List<Item> items = Input.readItem();
 		System.out.println("Items loaded: " + items.size());
 		
-		System.out.println("End of program.");
+		System.out.println("Input phase complete.");	
+
+        System.out.println("Writing XML...");
+        Output.personsToXml(persons);
+        Output.companiesToXml(companies);
+        Output.itemsToXml(items);
+        
+		System.out.println("Writing JSON...");
+        Output.personsToJson(persons);
+        Output.companiesToJson(companies);
+        Output.itemsToJson(items);
+		
+		System.out.println("Output phase complete. End of program.");
 	}
 }

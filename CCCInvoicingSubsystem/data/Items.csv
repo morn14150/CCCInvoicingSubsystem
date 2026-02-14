@@ -1,16 +1,16 @@
 uuid,type,name,field(s)
-dca4b8e6-9c13-4b1d-aeef-1e3f237f9a9a,E,Monitor,199.99
-b215f55a-84a7-4b67-a920-1fc157a4da7f,E,Keyboard,25.95
-ff4b3209-1ac5-49ab-a84f-93b5475cf346,E,Greentooth Mouse,17.50
-0a3d88d9-2b8a-441f-beb3-cbe03f77db02,E,Server Rack,650
-3dff1b7f-1ed0-44b3-a763-f6d04b6e0ff1,E,Surge Protector,8.99
-864c15b2-c21f-4cb9-95de-97fd245fa473,S,Delivery,50
-8ff9b933-dc7e-44b9-9864-e5e76f1c7357,S,Phone Tech Support,25
-4c3cb0ec-833b-41b3-b842-54a5d27bcb9e,S,Tech Analysis,75
-7c1b401b-4a6b-4d31-80a2-03798183e4f9,S,White Glove Tech Support,125.50
-9eb9938f-b581-43c1-b4bc-b5fa4c6f60f7,S,Software Development,350.45
-2b727fbc-257d-4ef1-a9d0-f3e09b72a59b,L,Cloud Storage,50,12500
-5416e75f-34d4-4974-9d19-bfdb8a5c2fc9,L,Oracle Database,0,36000.36
-fa9cdbd8-c9b7-4f89-9be6-bc64b62fe6c0,L,SM367,150,600
-bbf7a3e0-d4f0-47e2-bb3a-6f3ed3fd5f17,L,AI Slop Cleanup 400,500.75,120.15
-b4f02d75-d29b-468d-a244-1a1e3d5d92a6,L,SM Office,25.99,1212.12
+3190e085-4133-4844-a502-7b8109bbdb82,E,ASUS TUF Z370 Motherboard,299.99
+f1c7b8be-c101-470e-8c34-f6d85ec5c366,E,Acer Keyboard,15.99
+930acfcc-0dd8-4ef3-b4c5-b857cc71ca14,E,Razer Deathadder V2 X Hyperspeed Mouse,59.99
+2c9313a4-d55c-489d-9db5-5671f4e0138c,E,ASRock W680 Server Motherboard,999.99
+9792d954-d9c5-4894-bfb1-412a9b1030ba,E,SEAGATE Barracuda 500GB Hard Drive,19.99
+fd876ebb-df79-42a6-9990-dee7b96ed3b9,S,5G Internet,30
+39a528e2-9c23-43d5-883b-dad31b4619fc,S,Mechanic,25
+f0ac9aaf-2eef-4455-8270-e040ef77e1f4,S,Tech Support,0
+000605b9-5f53-4343-b9b7-4633d3a2be79,S,Key Activation Service,5.99
+b8ed23b9-986e-4568-aee9-b3cdef70b2b3,S,Software Development,350.45
+a9685fec-66c9-4590-a20c-e6d8cb8808d9,L,Big Drive 2TB,50,12500
+70815b11-e98c-438a-a538-686be250375e,L,Oral Cole Database,0,36000.36
+0a96e6bd-28fa-490a-99eb-47d1e65f8e3e,L,Nintendon't Subscription,150,600
+5d1a0db7-ae8c-4fe4-885f-6bbdfe749bf7,L,Maximus AI Slop Cleanup 400,500.75,120.15
+998300a5-f1e0-412d-974a-7d5fe9c35b22,L,Libreoffice PRO PLUS MAX ULTRA,25.99,1212.12

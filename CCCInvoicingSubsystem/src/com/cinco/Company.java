@@ -1,31 +1,33 @@
 package com.cinco;
 
+import java.util.UUID;
+
 /**
  * Represents a company.
  */
 
 public class Company {
 
-	private String companyUuid;
-	private String contactUuid;
+	private UUID companyUuid;
+	private UUID personUuid;
 	private String name;
 	private Address address;
 	
-	public Company(String companyUuid, String contactUuid, 
+	public Company(UUID companyUuid, UUID personUuid, 
 				   String name, Address address) {
 		super();
 		this.companyUuid = companyUuid;
-		this.contactUuid = contactUuid;
+		this.personUuid = personUuid;
 		this.name = name;
 		this.address = address;
 	}
 
-	public String getCompanyUuid() {
+	public UUID getCompanyUuid() {
 		return companyUuid;
 	}
 
-	public String getContactUuid() {
-		return contactUuid;
+	public UUID getContactUuid() {
+		return personUuid;
 	}
 
 	public String getName() {

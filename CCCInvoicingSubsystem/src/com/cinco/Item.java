@@ -1,5 +1,7 @@
 package com.cinco;
 
+import java.util.UUID;
+
 /**
  * Represents the common definition of all items
  * (Equipment, license, service)
@@ -9,15 +11,15 @@ package com.cinco;
  */
 
 public abstract class Item {
-	private String uuid;
+	private UUID uuid;
 	private String name;
 
-	public Item(String uuid, String name) {
+	public Item(UUID uuid, String name) {
 		this.uuid = uuid;
 		this.name = name;
 	}
 
-	public String getUuid() {
+	public UUID getUuid() {
 		return uuid;
 	}
 
