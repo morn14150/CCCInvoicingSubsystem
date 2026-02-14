@@ -1,7 +1,7 @@
 #CCC Invoicing Subsystem
 
-Minh Tran
-mtran33@huskers.unl.edu
+**Minh Tran**
+*mtran33@huskers.unl.edu*
 
 hi lol
 
