@@ -9,15 +9,15 @@ import java.util.UUID;
 public class Company {
 
 	private UUID companyUuid;
-	private UUID personUuid;
+	private Person primaryContact;
 	private String name;
 	private Address address;
 	
-	public Company(UUID companyUuid, UUID personUuid, 
+	public Company(UUID companyUuid, Person primaryContact, 
 				   String name, Address address) {
 		super();
 		this.companyUuid = companyUuid;
-		this.personUuid = personUuid;
+		this.primaryContact = primaryContact;
 		this.name = name;
 		this.address = address;
 	}
@@ -26,10 +26,10 @@ public class Company {
 		return companyUuid;
 	}
 
-	public UUID getContactUuid() {
-		return personUuid;
+	public Person getPrimaryContact() {
+		return primaryContact;
 	}
-
+	
 	public String getName() {
 		return name;
 	}

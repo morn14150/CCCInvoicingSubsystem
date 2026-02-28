@@ -1,0 +1,57 @@
+<list>
+  <company>
+    <companyUuid>18456183-1888-444f-b26b-d8bee66edf98</companyUuid>
+    <personUuid>52b90aed-8a62-4590-8bc6-00425229eff1</personUuid>
+    <name>Robert Lox Corpo</name>
+    <address>
+      <street>234 West Road</street>
+      <city>Sacramento</city>
+      <state>CA</state>
+      <zip>94203</zip>
+    </address>
+  </company>
+  <company>
+    <companyUuid>3710ccf6-8b05-4bbc-8ee3-438cdacb2909</companyUuid>
+    <personUuid>8c025de2-2b26-4e63-ae89-2adcc7bcd4ac</personUuid>
+    <name>Neck Fixing Masters</name>
+    <address>
+      <street>700 Westminister Road</street>
+      <city>Seattle</city>
+      <state>WA</state>
+      <zip>94203</zip>
+    </address>
+  </company>
+  <company>
+    <companyUuid>9d2ae909-3ebe-406c-b8e4-7dcaf9c2e693</companyUuid>
+    <personUuid>7141ba8e-a8a0-4b02-9463-91aa08ff2129</personUuid>
+    <name>NVIDIA</name>
+    <address>
+      <street>2788 San Tomas Expy</street>
+      <city>Santa Clara</city>
+      <state>CA</state>
+      <zip>95051</zip>
+    </address>
+  </company>
+  <company>
+    <companyUuid>056b3b6b-ba1b-4ca5-a030-f0c6b0a3fa8a</companyUuid>
+    <personUuid>7bfe6ce6-ebbf-4b00-bcf1-fc41d13242ae</personUuid>
+    <name>AMD</name>
+    <address>
+      <street>2485 Augustine Drive</street>
+      <city>Santa Clara</city>
+      <state>CA</state>
+      <zip>95054</zip>
+    </address>
+  </company>
+  <company>
+    <companyUuid>aa7b3101-d802-49c2-b15d-c925f34cdce1</companyUuid>
+    <personUuid>ea531988-4057-4544-b8be-77aec84d637e</personUuid>
+    <name>Intel Corporation</name>
+    <address>
+      <street>2200 Mission College Blvd</street>
+      <city>Santa Clara</city>
+      <state>CA</state>
+      <zip>95054</zip>
+    </address>
+  </company>
+</list>

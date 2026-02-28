@@ -20,7 +20,7 @@ public class DataConverter {
 		List<Person> persons = Input.readPerson();
 		System.out.println("Persons loaded: " + persons.size());
 
-		List<Company> companies = Input.readCompany();
+		List<Company> companies = Input.readCompany(persons);
 		System.out.println("Companies loaded: " + companies.size());
 		
 		List<Item> items = Input.readItem();

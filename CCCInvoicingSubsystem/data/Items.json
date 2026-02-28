@@ -1,0 +1,82 @@
+[
+  {
+    "costPerItem": 299.99,
+    "uuid": "3190e085-4133-4844-a502-7b8109bbdb82",
+    "name": "ASUS TUF Z370 Motherboard"
+  },
+  {
+    "costPerItem": 15.99,
+    "uuid": "f1c7b8be-c101-470e-8c34-f6d85ec5c366",
+    "name": "Acer Keyboard"
+  },
+  {
+    "costPerItem": 59.99,
+    "uuid": "930acfcc-0dd8-4ef3-b4c5-b857cc71ca14",
+    "name": "Razer Deathadder V2 X Hyperspeed Mouse"
+  },
+  {
+    "costPerItem": 999.99,
+    "uuid": "2c9313a4-d55c-489d-9db5-5671f4e0138c",
+    "name": "ASRock W680 Server Motherboard"
+  },
+  {
+    "costPerItem": 19.99,
+    "uuid": "9792d954-d9c5-4894-bfb1-412a9b1030ba",
+    "name": "SEAGATE Barracuda 500GB Hard Drive"
+  },
+  {
+    "costPerHour": 30.0,
+    "uuid": "fd876ebb-df79-42a6-9990-dee7b96ed3b9",
+    "name": "5G Internet"
+  },
+  {
+    "costPerHour": 25.0,
+    "uuid": "39a528e2-9c23-43d5-883b-dad31b4619fc",
+    "name": "Mechanic"
+  },
+  {
+    "costPerHour": 0.0,
+    "uuid": "f0ac9aaf-2eef-4455-8270-e040ef77e1f4",
+    "name": "Tech Support"
+  },
+  {
+    "costPerHour": 5.99,
+    "uuid": "000605b9-5f53-4343-b9b7-4633d3a2be79",
+    "name": "Key Activation Service"
+  },
+  {
+    "costPerHour": 350.45,
+    "uuid": "b8ed23b9-986e-4568-aee9-b3cdef70b2b3",
+    "name": "Software Development"
+  },
+  {
+    "annualFee": 50.0,
+    "serviceFee": 12500.0,
+    "uuid": "a9685fec-66c9-4590-a20c-e6d8cb8808d9",
+    "name": "Big Drive 2TB"
+  },
+  {
+    "annualFee": 0.0,
+    "serviceFee": 36000.36,
+    "uuid": "70815b11-e98c-438a-a538-686be250375e",
+    "name": "Oral Cole Database"
+  },
+  {
+    "annualFee": 150.0,
+    "serviceFee": 600.0,
+    "uuid": "0a96e6bd-28fa-490a-99eb-47d1e65f8e3e",
+    "name": "Nintendon\u0027t Subscription"
+  },
+  {
+    "annualFee": 500.75,
+    "serviceFee": 120.15,
+    "uuid": "5d1a0db7-ae8c-4fe4-885f-6bbdfe749bf7",
+    "name": "Maximus AI Slop Cleanup 400"
+  },
+  {
+    "annualFee": 25.99,
+    "serviceFee": 1212.12,
+    "uuid": "998300a5-f1e0-412d-974a-7d5fe9c35b22",
+    "name": "Libreoffice PRO PLUS MAX ULTRA"
+  }
+]

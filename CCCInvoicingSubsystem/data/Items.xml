@@ -1,0 +1,82 @@
+<list>
+  <equipment>
+    <uuid>3190e085-4133-4844-a502-7b8109bbdb82</uuid>
+    <name>ASUS TUF Z370 Motherboard</name>
+    <costPerItem>299.99</costPerItem>
+  </equipment>
+  <equipment>
+    <uuid>f1c7b8be-c101-470e-8c34-f6d85ec5c366</uuid>
+    <name>Acer Keyboard</name>
+    <costPerItem>15.99</costPerItem>
+  </equipment>
+  <equipment>
+    <uuid>930acfcc-0dd8-4ef3-b4c5-b857cc71ca14</uuid>
+    <name>Razer Deathadder V2 X Hyperspeed Mouse</name>
+    <costPerItem>59.99</costPerItem>
+  </equipment>
+  <equipment>
+    <uuid>2c9313a4-d55c-489d-9db5-5671f4e0138c</uuid>
+    <name>ASRock W680 Server Motherboard</name>
+    <costPerItem>999.99</costPerItem>
+  </equipment>
+  <equipment>
+    <uuid>9792d954-d9c5-4894-bfb1-412a9b1030ba</uuid>
+    <name>SEAGATE Barracuda 500GB Hard Drive</name>
+    <costPerItem>19.99</costPerItem>
+  </equipment>
+  <service>
+    <uuid>fd876ebb-df79-42a6-9990-dee7b96ed3b9</uuid>
+    <name>5G Internet</name>
+    <costPerHour>30.0</costPerHour>
+  </service>
+  <service>
+    <uuid>39a528e2-9c23-43d5-883b-dad31b4619fc</uuid>
+    <name>Mechanic</name>
+    <costPerHour>25.0</costPerHour>
+  </service>
+  <service>
+    <uuid>f0ac9aaf-2eef-4455-8270-e040ef77e1f4</uuid>
+    <name>Tech Support</name>
+    <costPerHour>0.0</costPerHour>
+  </service>
+  <service>
+    <uuid>000605b9-5f53-4343-b9b7-4633d3a2be79</uuid>
+    <name>Key Activation Service</name>
+    <costPerHour>5.99</costPerHour>
+  </service>
+  <service>
+    <uuid>b8ed23b9-986e-4568-aee9-b3cdef70b2b3</uuid>
+    <name>Software Development</name>
+    <costPerHour>350.45</costPerHour>
+  </service>
+  <license>
+    <uuid>a9685fec-66c9-4590-a20c-e6d8cb8808d9</uuid>
+    <name>Big Drive 2TB</name>
+    <annualFee>50.0</annualFee>
+    <serviceFee>12500.0</serviceFee>
+  </license>
+  <license>
+    <uuid>70815b11-e98c-438a-a538-686be250375e</uuid>
+    <name>Oral Cole Database</name>
+    <annualFee>0.0</annualFee>
+    <serviceFee>36000.36</serviceFee>
+  </license>
+  <license>
+    <uuid>0a96e6bd-28fa-490a-99eb-47d1e65f8e3e</uuid>
+    <name>Nintendon&apos;t Subscription</name>
+    <annualFee>150.0</annualFee>
+    <serviceFee>600.0</serviceFee>
+  </license>
+  <license>
+    <uuid>5d1a0db7-ae8c-4fe4-885f-6bbdfe749bf7</uuid>
+    <name>Maximus AI Slop Cleanup 400</name>
+    <annualFee>500.75</annualFee>
+    <serviceFee>120.15</serviceFee>
+  </license>
+  <license>
+    <uuid>998300a5-f1e0-412d-974a-7d5fe9c35b22</uuid>
+    <name>Libreoffice PRO PLUS MAX ULTRA</name>
+    <annualFee>25.99</annualFee>
+    <serviceFee>1212.12</serviceFee>
+  </license>
+</list>

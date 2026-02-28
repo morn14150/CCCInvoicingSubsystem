@@ -43,9 +43,8 @@ public class Input {
 					}
 				}
 				
-				Person p = new Person(uuid, firstName,
-						              lastName, phone, 
-						              email);
+				Person p = new Person(uuid, firstName, lastName,
+									  phone, email);
 				persons.add(p);
 			}
 			s.close();
@@ -55,7 +54,7 @@ public class Input {
 		return persons;
 	}
 	
-	public static List<Company> readCompany(){
+	public static List<Company> readCompany(List<Person> persons){
 		List<Company> companies = new ArrayList<>();
 		File f = new File("data/Companies.csv");
 		
@@ -71,16 +70,22 @@ public class Input {
 				
 				UUID companyUuid = UUID.fromString(tokens[0]);
 				UUID contactUuid = UUID.fromString(tokens[1]);
-				String name      = tokens[2];
+				String name      = tokens[2];					
 				String street    = tokens[3];
 				String city      = tokens[4];
 				String state     = tokens[5];
 				String zip       = tokens[6];
 				
+				Person primaryContact = null;
+			    for (Person p : persons) {
+			        if (p.getUuid().equals(contactUuid)) {
+			            primaryContact = p;
+			            break; 
+			        }
+			    }
 				Address address = new Address(street, city,
 											  state, zip);
-				
-				Company c = new Company(companyUuid, contactUuid,
+				Company c = new Company(companyUuid, primaryContact, 
 										name, address);
 				companies.add(c);
 			}
@@ -123,8 +128,8 @@ public class Input {
 					double serviceFee = Double.parseDouble(tokens[3]);
 					double annualFee = Double.parseDouble(tokens[4]);
 					License l = new License(uuid, name, 
-											annualFee, 
-											serviceFee);
+											serviceFee, 
+											annualFee);
 					items.add(l);
 				}
 			}

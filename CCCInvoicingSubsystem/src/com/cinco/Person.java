@@ -15,9 +15,8 @@ public class Person {
 	private String phone;
 	private List<String> email;
 	
-	public Person(UUID uuid, String firstName, 
-				  String lastName, String phone, 
-				  List<String> email) {
+	public Person(UUID uuid, String firstName, String lastName, 
+				  String phone, List<String> email) {
 		
 		this.uuid = uuid;
 		this.firstName = firstName;
@@ -26,14 +25,14 @@ public class Person {
 		this.email = email;
 	}
 
-	public UUID getPersonUUID() {
+	public UUID getUuid() {
 		return uuid;
 	}
 
 	public String getFirstName() {
 		return firstName;
 	}
-
+	
 	public String getLastName() {
 		return lastName;
 	}
