@@ -1,4 +1,4 @@
-#CCC Invoicing Subsystem
+# CCC Invoicing Subsystem
 
 Author: **Minh Tran** / [mtran33@huskers.unl.edu](mailto:mtran33@huskers.unl.edu)
 
